@@ -1,0 +1,18 @@
+Subtitle Catcher Greasemonkey 2.1.17 validation
+
+PASS 1: JavaScript syntax checked with Node.js --check.
+PASS 2: WebVTT parser test with WEBVTT header and cue ID handling.
+PASS 3: SRT output timestamps converted from dot to comma.
+PASS 4: SRT cue numbering and body text retained.
+PASS 5: ASS output contains Dialogue records.
+PASS 6: ASS output maps CSS hex color to ASS BGR color.
+PASS 7: ASS output maps VTT line/position settings to ASS positioning tags.
+PASS 8: WOFF1 uncompressed-table fixture reconstructs an SFNT/TTF structure.
+PASS 9: WOFF1 compressed tables use browser DecompressionStream('deflate').
+PASS 10: UI actions are wired for VTT->SRT, VTT->ASS, VTT style inspection, and WOFF1->TTF/OTF.
+
+Scope: automated syntax and synthetic fixture tests only. This does not mean the script was tested live on ten different websites or against every font/subtitle variant.
+Known limitation: WOFF2 conversion is not implemented.
+
+11. Greasemonkey 4 API declaration and GM.xmlHttpRequest fallback: PASS
+12. Legacy GM_xmlhttpRequest fallback retained: PASS
