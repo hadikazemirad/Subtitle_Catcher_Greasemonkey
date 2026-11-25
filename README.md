@@ -2,6 +2,14 @@
 
 This userscript detects direct media resources, subtitles, fonts, audio, and posters on web pages. HLS/M3U8 is intentionally excluded.
 
+English — Installation
+1. Install Violentmonkey or Greasemonkey in your browser.
+2. Make sure the extension is enabled.
+3. Open Subtitle_Catcher_Greasemonkey.user.js.
+4. Click Install when the userscript installation page appears.
+5. Reload the website where you want to use Subtitle Catcher.
+6. Click the floating Subtitle Catcher button to open the panel
+7. 
 ## New in 2.1.17
 - Real WebVTT (`.vtt`) to SRT conversion, including cue numbering and timestamp conversion.
 - WebVTT to ASS export to preserve basic styling: global cue color/background, font family/size, bold/italic, alignment, and common line/position percentages.
